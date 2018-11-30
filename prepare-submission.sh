@@ -1,1 +1,1 @@
-zip pa7.zip SoundOfData.java Sound.java SoundExamples.java sound-for-submission.wav
+zip pa7.zip SoundOfData.java Sound.java SoundExamples.java sounds/hurricane.wav
