@@ -80,7 +80,7 @@ NOTE that a version of Media could use Sound, but we choose int[]
 
   /**
    * Opens an interactive explore window that interprets an integer array as an
-   * array of samples.
+   * array of samples of a sound.
    * 
    * @param sound the sound as an array of samples
    * @return always returns true
