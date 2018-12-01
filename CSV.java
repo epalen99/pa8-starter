@@ -7,7 +7,7 @@ class CSV {
    * newlines, and a header from the first row.
    */
   public CSV (String table) {
-    this.rows = table.trim().split("\n");
+    this.rows = table.trim().split("\n", -1);
     this.header = this.rows[0];
   }
 
@@ -22,7 +22,7 @@ class CSV {
    * @return the number of columns in the table
    */
   public int getNumCols() {
-    return this.header.split(",").length;
+    return this.header.split(",", -1).length;
   }
 
   /**
